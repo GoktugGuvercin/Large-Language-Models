@@ -10,7 +10,8 @@
 
 
 ***Encoder Only Models:*** They aim to understand the language, its semantics lying behind it, and create its representation. (Language Representation)
-***Decoder Only Models:**** They aim to predict the next word and generate the language. (Language Generation)
+
+***Decoder Only Models:*** They aim to predict the next word and generate the language. (Language Generation)
 
 ### Next Sentence Prediction (NSP)
 It is a binary classification task that can be used for pre-training stages; it does not need human annotation. For each sample, a pair of two sentences `A` and `B` is constructed; these two sentences are either chosen from different documents or they follow each other consecutively in a way that `B` is the next sentence of `A`.  
